@@ -10,4 +10,4 @@
 - Авторизация: представлена форма защиты, которая сопоставляет биометрические данные пользователя, чтобы убедиться, что человек, пытающийся получить доступ к определенному устройству - авторизован. 
 - FAQ: ответы на вопросы о приложении
 
-[](https://github.com/UndiedEra/newrepofordiploma/blob/master/preview_AdobeExpress.gif)
+![](https://github.com/UndiedEra/newrepofordiploma/blob/master/preview_AdobeExpress.gif)
