@@ -12,6 +12,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
+        android:testOnly="false"
         android:theme="@style/Theme.MyDiplomaWork"
         tools:targetApi="31">
         <activity
