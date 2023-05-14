@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:focusable="true"
+    android:background="@color/custom"
+    android:focusableInTouchMode="true">
+
+    <TextView
+        android:id="@+id/btn_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Выйти"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textColor="@color/colorErrorText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.12" />
+
+    <com.poovam.pinedittextfield.CirclePinField
+        android:id="@+id/pinEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="48dp"
+        android:cursorVisible="false"
+        android:padding="0dp"
+        android:focusableInTouchMode="false"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:textColor="@color/colorPrimaryText"
+        android:textIsSelectable="false"
+        app:circleRadius="4dp"
+        app:fieldColor="@color/colorSecondaryText"
+        app:fillerColor="@color/colorGreen"
+        app:fillerRadius="5dp"
+        app:highlightEnabled="true"
+        app:highlightType="currentField"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/passcode_fragment_title"
+        app:noOfFields="4"
+        tools:text="123" />
+
+
+    <TextView
+        android:id="@+id/passcode_fragment_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="4dp"
+        android:letterSpacing="0.01"
+        android:lineSpacingExtra="2sp"
+        android:lines="2"
+        android:paddingHorizontal="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryGrayText"
+        app:layout_constraintTop_toTopOf="@id/guideline" />
+
+    <com.example.mydiplomawork.ui.keyboard.NumPadView
+        android:id="@+id/passcode_fragment_keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintVertical_bias="1"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toTopOf="@id/text_forgot_pin"/>
+
+    <TextView
+        android:id="@+id/text_forgot_pin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="?attr/selectableItemBackground"
+        android:text="Забыли пароль"
+        android:visibility="visible"
+        android:textStyle="bold"
+        android:textColor="#11BB91"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

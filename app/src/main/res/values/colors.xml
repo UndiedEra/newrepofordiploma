@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="custom">#2A2A2A</color>
+    <color name="custom_num">#555555</color>
+
+    <color name="colorPrimary">#005744</color>
+    <color name="colorPrimaryDark">#005340</color>
+    <color name="colorAccent">#005744</color>
+    <color name="colorWindowBg">#f3f4fa</color>
+    <color name="colorError">#e04037</color>
+    <color name="colorDivider">#30cfd6de</color>
+    <color name="colorInputField">#b3f7f9fe</color>
+    <color name="colorInputFiledDisabled">#f1f3f5</color>
+    <color name="alpha_foreground">#D9FEFEFE</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="statusBarColor">#1A000000</color>
+    <color name="alertBgColor">#40535353</color>
+    <color name="colorLightSubGreen">#75ACA3</color>
+    <color name="colorWhiteBg">#fafafa</color>
+    <color name="colorOrange">#F1A400</color>
+    <color name="colorOrange_50">#80F1A400</color>
+    <color name="colorDividerGrey">#E4E7ED</color>
+    <color name="colorGreyOpacity">#19768093</color>
+    <color name="initial_selected">#C87017</color>
+    <color name="initial_unselected">#C5CACE</color>
+
+    <!-- Fonts colors -->
+    <color name="colorPrimaryDarkText">#1b1c1d</color>
+    <color name="colorSecondaryDarkText">#8b1b1c1d</color>
+    <color name="colorHintDarkText">#80768093</color>
+    <color name="secondaryDarkText">#768093</color>
+    <color name="secondaryDarkGreyText">#768094</color>
+    <color name="secondaryLightGreyText">#80a9af</color>
+    <color name="primary_gray">#263238</color>
+
+    <!-- Other colors -->
+    <color name="goldDark">#fbae16</color>
+    <color name="contentSecondaryBackground">#f7f9fe</color>
+    <color name="colorBackgroundLoader">#B3000000</color>
+    <color name="colorNewPrimaryDarkText">#2A353D</color>
+    <color name="colorNewError">#FF5721</color>
+    <color name="colorNewLightGrey">#DDE5E7</color>
+    <color name="colorNewLightDark">#ACBBBE</color>
+    <color name="colorNewDivider">#E8EBEB</color>
+
+    <color name="livenessBackground">#B30B111C</color>
+    <color name="colorSpinKitBackground">#99000000</color>
+
+    <color name="colorGreyOnboarding">#F2F7F7</color>
+
+    <color name="colorDayTertiaryGray">#829199</color>
+
+    <color name="colorGreenInstructionBackground">#C1F4C0</color>
+    <color name="colorBeigeInstructionBackground">#FDE8B5</color>
+
+    <!-- Release 3 colors -->
+    <color name="colorGreen">#11BB91</color>
+    <color name="colorDarkGreen">#1AA180</color>
+    <color name="colorGreenVariant">#BEECE0</color>
+    <color name="colorOrangeNew">#FBB100</color>
+    <color name="colorOrangeVariant">#F7D08E</color>
+    <color name="colorStrokeNew">#F3F3F3</color>
+
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorCardBackground">#FFFFFF</color>
+    <color name="colorStroke">#DDE5E7</color>
+    <color name="colorDarkBackground">#f3f4fa</color>
+    <color name="colorOrangeBackground">#FAD1A7</color>
+    <color name="colorRedBackground">#15FF5721</color>
+    <color name="colorNewRedBackground">#F6AFAA</color>
+    <color name="colorBlueBackground">#C3D0E9</color>
+    <color name="colorGreenBackground">#E0F9EB</color>
+    <color name="colorGrayBackground">#CFD6DE</color>
+    <color name="colorCaparolBackground">#E8E0D4</color>
+    <color name="colorDayAccountBackground">#D9B681</color>
+    <color name="colorSeekBarBackground">#DDE5E7</color>
+    <color name="colorDividerBackground">#f1f3f5</color>
+    <color name="colorIconBackground">#F2F7F7</color>
+    <color name="colorProgressBackground">#4D000000</color>
+    <color name="colorYellowBackground">#F2AA1A</color>
+    <color name="colorYellowLightBackground2">#FEEFD0</color>
+    <color name="colorSnackBackground">#3F4A47</color>
+    <color name="colorBackgroundGray">#E9EFF0</color>
+    <color name="colorGrayLightBackground">#CDDDED</color>
+    <color name="colorYellowLightBackground">#E9E1C3</color>
+    <color name="colorDayYellowBackground">#FEEFD0</color>
+    <color name="colorCyanBackground">#D9F1FC</color>
+    <color name="colorBackgroundGrayForItem">#DDE7E7</color>
+
+    <!-- Text colors -->
+    <color name="colorPrimaryText">#2A353D</color>
+    <color name="colorSecondaryText">#505C64</color>
+    <color name="colorHeaderText">#2A353D</color>
+    <color name="colorHintText">#88999C</color>
+    <color name="colorDescriptionText">#ACBBBE</color>
+    <color name="colorErrorText">#FF5721</color>
+    <color name="colorTitleText">#1B1C1D</color>
+    <color name="colorDisabledText">#768093</color>
+    <color name="colorOrangeText">#DF780C</color>
+    <color name="colorRedText">#DF0C0C</color>
+    <color name="colorGreenText">#0FA987</color>
+    <color name="colorGreenLightText">#11BB91</color>
+    <color name="colorGrayText">#515B68</color>
+    <color name="colorPrimaryGrayText">#263238</color>
+    <color name="colorYellowText">#F2AA1A</color>
+    <color name="colorLightGrayText">#829199</color>
+    <color name="colorPureYellowText">#F5C400</color>
+    <color name="colorBlueText">#25ADED</color>
+    <color name="colorPrimaryGrey">#263238</color>
+    <color name="colorBottomSheetGray">#ECECEC</color>
+
+    <!--Transfers swift-->
+    <color name="transfersSwiftIndicatorNormal">@color/colorSeekBarBackground</color>
+    <color name="transfersSwiftIndicatorChecked">@color/colorGreen</color>
+
+    <!--Svetofor-->
+    <color name="transfersSwiftSvetoforResultLineBackground">#F0F3F3</color>
+    <color name="transfersSwiftSvetoforGreen">@color/colorGreenText</color>
+    <color name="transfersSwiftSvetoforOrange">@color/colorYellowBackground</color>
+    <color name="transfersSwiftSvetoforRed">@color/colorErrorText</color>
+
+    <!--Pre-redesign colors-->
+    <color name="colorGreenVarianted">#1AA180</color>
+
+    <color name="colorErrorRed">#FF5721</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorStrokeRedesigned">#D0D6D8</color>
+    <color name="colorTransparent">#00FFFFFF</color>
+    <color name="colorNaughtyYellow">#F2AA1A</color>
+    <color name="colorOchreYellow">#D9B681</color>
+    <color name="colorBlueMate">#2A353D</color>
+
+    <color name="colorBackgroundGrey">#F3F3F3</color>
+    <color name="colorBackgroundGreen">#E0F9EB</color>
+    <color name="colorBackgroundRed">#FCE2D3</color>
+    <color name="colorBackgroundYellow">#FEEFD0</color>
+
+    <color name="colorPrimaryGray">#263238</color>
+    <color name="colorSecondaryGray">#505C64</color>
+    <color name="colorTertiaryGray">#829199</color>
+    <color name="colorDisabledGray">#ACBBBE</color>
+    <color name="colorDirtyGray">#DDE5E7</color>
+    <color name="colorBasicGray">#ECECEC</color>
+    <color name="colorPaleGrey">#88999C</color>
+
+    <color name="colorBlue">#3056D3</color>
+
+    <color name="colorPastelPowderBlue">#E7F1FF</color>
+    <color name="colorPastelViolet">#F6EEF8</color>
+    <color name="colorPastelPaleBlue">#D4EBFF</color>
+    <color name="colorPastelGreen">#D5F8F0</color>
+    <color name="colorPastelPink">#FDEAFF</color>
+    <color name="colorPastelLemon">#FFFFD0</color>
+
+    <color name="colorStatusRed">#FF0000</color>
+    <color name="colorStatusYellow">#F5C400</color>
+
+</resources>

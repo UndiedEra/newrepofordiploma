@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_rootcheck"
+        android:title="Rootcheck"
+        android:icon="@drawable/ic_rootcheck"/>
+    <item
+        android:id="@+id/menu_obfuscation"
+        android:title="Obfuscation"
+        android:icon="@drawable/ic_obfuscation"/>
+    <item
+        android:id="@+id/menu_cloud"
+        android:title=""/>
+    <item
+        android:id="@+id/menu_authentication"
+        android:title="Authentication"
+        android:icon="@drawable/ic_authentication"/>
+    <item
+        android:id="@+id/menu_faq"
+        android:title="FAQ"
+        android:icon="@drawable/ic_authentication"/>
+</menu>

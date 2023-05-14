@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/custom"
+    android:orientation="vertical"
+    android:paddingHorizontal="16dp"
+    tools:context=".ui.faq.FAQFragment">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Для чего нужно приложение?"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:drawableEnd="@drawable/arrow_down"
+        />
+
+    <TextView
+        android:id="@+id/text1a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:text="Это демонстрационное приложение, которое позволяет ознакомиться с нашими методами защиты при разработке приложения."
+        />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="2. Что входит в защиту?"
+        android:textSize="20sp"
+        android:drawableEnd="@drawable/arrow_down"
+        />
+
+    <TextView
+        android:id="@+id/text2a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:text="В данном приложении присутствует Обфускация кода, рутчек приложения, авторизация по логину и паролю, а также вход по пин-коду и биометрии."
+        android:textColor="@color/white"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="3. Как и где мне скачать код?"
+        android:drawableEnd="@drawable/arrow_down"
+        />
+
+    <TextView
+        android:id="@+id/text3a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:text="Весь исходный код вы сможете найти на гитхабе."
+        android:textColor="@color/white"
+        android:visibility="gone"
+        />
+
+</LinearLayout>
