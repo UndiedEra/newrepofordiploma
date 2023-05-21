@@ -19,25 +19,17 @@ class ObfuscationFragment : Fragment() {
     ): View? {
         return inflater.inflate(R.layout.fragment_obfuscation, container, false)
     }
-
+    
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         view.findViewById<Button>(R.id.btnNext).setOnClickListener {
-            openUrl("")
+            openUrl("https://github.com/UndiedEra/newrepofordiploma")
         }
     }
 
     private fun openUrl(url: String) {
         val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
-        if (browserIntent.resolveActivity(requireActivity().packageManager) != null) {
-            this.startActivity(browserIntent)
-        } else {
-            Toast.makeText(
-                requireContext(),
-                "Нет приложений, которые могут выполнить действие",
-                Toast.LENGTH_SHORT
-            ).show()
-        }
+        startActivity(browserIntent)
     }
 
     companion object {
